@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/avatar.jpg">
+    <title>tahbert.one</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <!-- google icons -->
+    <script src="https://kit.fontawesome.com/c313c8dbc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <!-- scrips -->
+    <script src="js/noti.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+    <script src="js/nav.js" defer></script>
+    <script src="js/more.js" defer></script>
+    <script src="js/more-feedback.js" defer></script>
+    <script src="js/header.js" defer></script>
+    <script src="js/header-nav.js" defer></script>
+    <script src="js/inf.js" defer></script>
+</head>
+
+<body>
+    <!-- The Header -->
+    <div id="header" class="header">
+        <div class="logo-box">
+            <span id="icon-menu" class="icon-menu material-symbols-rounded">menu</span>
+            <a class="logo" href="index.html">tahbert.one</a>
+        </div>
+
+        <form id="search-box" class="search-box" action="#">
+            <span class="icon-search material-symbols-rounded">search</span>
+            <input type="text" name="search" id="search" placeholder="Search for articles">
+        </form>
+
+        <div class="box-noti-wrapper">
+            <span class="icon-noti material-symbols-rounded">
+                notifications
+            </span>
+
+            <span class="noti-badge"></span>
+    
+            <!-- The Notification Popup -->
+            <div id="box-noti" class="box noti">
+                <div class="box-header noti">
+                    <h2>What's new</h2>
+                </div>
+    
+                <div class="box-body noti">
+                    <a href="#noti" class="noti-item">
+                        <span class="noti-dot"></span>
+                        <div class="avatar small">
+                            <img src="images/avatar.jpg">
+                        </div>
+                        <div class="noti-text">
+                            <h3>Tahbert Nguyen</h3>
+                            <span>have added a new feed</span>
+                        </div>
+                        <span class="icon-activity new material-symbols-rounded">
+                            feed
+                        </span>
+                    </a>
+
+                    <a href="#noti" class="noti-item">
+                        <span class="noti-dot"></span>
+                        <div class="avatar small">
+                            <img src="images/avatar.jpg">
+                        </div>
+                        <div class="noti-text">
+                            <h3>Tahbert Nguyen</h3>
+                            <span>have a new achievement</span>
+                        </div>
+                        <span class="icon-activity satisfied material-symbols-rounded">
+                            sentiment_very_satisfied
+                        </span>
+                    </a>
+    
+                    <a href="#noti" class="noti-item">
+                        <span class="noti-dot"></span>
+                        <div class="avatar small">
+                            <img src="images/avatar.jpg">
+                        </div>
+                        <div class="noti-text">
+                            <h3>Tahbert Nguyen</h3>
+                            <span>have gained a big amount</span>
+                        </div>
+                        <span class="icon-activity satisfied material-symbols-rounded">
+                            sentiment_satisfied
+                        </span>
+                    </a>
+    
+                    <a href="#noti" class="noti-item">
+                        <span class="noti-dot"></span>
+                        <div class="avatar small">
+                            <img src="images/avatar.jpg">
+                        </div>
+                        <div class="noti-text">
+                            <h3>Tahbert Nguyen</h3>
+                            <span>have lost the game</span>
+                        </div>
+                        <span class="icon-activity dissatisfied material-symbols-rounded">
+                            sentiment_dissatisfied
+                        </span>
+                    </a>
+    
+                    <a href="#noti" class="noti-item">
+                        <span class="noti-dot"></span>
+                        <div class="avatar small">
+                            <img src="images/avatar.jpg">
+                        </div>
+                        <div class="noti-text">
+                            <h3>Tahbert Nguyen</h3>
+                            <span>have lost his girlfriend</span>
+                        </div>
+                        <span class="icon-activity dissatisfied material-symbols-rounded">
+                            sentiment_very_dissatisfied
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="avatar small corner">
+            <a href="tahbert.html"><img src="images/avatar.jpg"></a>
+        </div>
+    </div>
+
+    <!-- The Header Nav -->
+    <div id="header-nav-wrapper" class="header-nav-wrapper">
+        <div id="header-nav" class="header-nav">
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">psychology</span>
+                    <span>Tahbert Zeitgeist</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">computer</span>
+                    <span>Tahbert Tech</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">music_note</span>
+                    <span>Tahbert Music</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">sports_soccer</span>
+                    <span>Tahbert Sports</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">health_and_safety</span>
+                    <span>Tahbert Health</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">cooking</span>
+                    <span>Tahbert Cooking</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+            <div class="header-cat">
+                <a class="nav-item" href="#">
+                    <span class="material-symbols-rounded">history_edu</span>
+                    <span>Tahbert Discovery</span>
+                </a>
+                <div class="tag-btn">
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                    <a href="#tag">tag here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ASIDE -->
+    <div class="aside">
+        <div class="aside-avatar">
+            <div class="avatar active">
+                <a href="tahbert.html"><img src="images/avatar.jpg"></a>
+            </div>
+            <a href="tahbert.html">Tahbert Nguyen</a>
+            <div class="avatar-detail">
+                <div>
+                    <h3>Post</h3>
+                    <span>130</span>
+                </div>
+                <div>
+                    <h3>Following</h3>
+                    <span>32</span>
+                </div>
+                <div>
+                    <h3>Followers</h3>
+                    <span>you?</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="aside-nav">
+            <a class="nav-item" href="index.html">
+                <span class="material-symbols-rounded">feed</span>
+                <span>Feed</span>
+            </a>
+            <a class="nav-item" href="tahbert.html">
+                <span class="material-symbols-rounded">person</span>
+                <span>Tahbert Nguyen</span>
+            </a>
+            <a class="nav-item active" href="#nav">
+                <span class="material-symbols-rounded">group</span>
+                <span>influencers</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">psychology</span>
+                <span>Tahbert Zeitgeist</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">computer</span>
+                <span>Tahbert Tech</span>
+                <span class="material-symbols-rounded">expand_more</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">music_note</span>
+                <span>Tahbert Music</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">sports_soccer</span>
+                <span>Tahbert Sports</span>
+                <span class="material-symbols-rounded">expand_more</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">health_and_safety</span>
+                <span>Tahbert Health</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">cooking</span>
+                <span>Tahbert Cooking</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">history_edu</span>
+                <span>Tahbert Discovery</span>
+            </a>
+            <a class="nav-item" href="#nav">
+                <span class="material-symbols-rounded">savings</span>
+                <span>Tahbert Finance</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- MAIN INF -->
+    <div class="main">
+        <div class="main_cover">
+            <img class="main_cover_img" src="images/Hans Zimmer cover.jpg" alt="cover">
+        </div>
+        
+        <div class="main_info">
+            <div class="avatar big">
+                <a href="#"><img class="main_info_img" src="images/Hans Zimmer.jpg"></a>
+            </div>
+
+            <div class="main_info_text">
+                <h1 class="main_info_name">Hans Zimmer</h1>
+                <div class="main_info_detail">
+                    <div>
+                        <span class="main_info_job">film score composer</span>
+                        <i class="icon icon-job fa-solid fa-briefcase"></i>
+                    </div>
+                    <div>
+                        <span class="main_info_rank">top 1 in my heart</span>
+                        <i class="icon icon-rank fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-nav">
+            <h1></h1>
+            <div class="prevenBreak">
+                <div class="swiper swiper-nav">
+                    <div class="swiper-wrapper">
+                        <a href="#nav" class="btn main-nav-item active swiper-slide">Overview</a>
+                        <a href="#nav" class="btn main-nav-item swiper-slide">Iconic Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main-review">
+            Hans Florian Zimmer is a German film score composer and music producer. 
+            He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. 
+            Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph. 
+        </div>
+
+        <a class="nav-item swip" href="#nav">
+            <span class="material-symbols-rounded">psychology</span>
+            <span>Tahbert Zeitgeist</span>
+        </a>
+
+        <div class="main-review">
+            This is a template for main-review of each categories.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+
+        <div class="preventBreak">
+            <div class="swiper swiper_inf">
+                <span class="icon-swiper prev material-symbols-rounded">arrow_circle_left</span>
+                <span class="icon-swiper next material-symbols-rounded">arrow_circle_right</span>
+
+                <div class="swiper-wrapper swiper_inf" data-inf>
+                    <div class="swiper-slide swiper_inf">
+                        <a class="swiper_avatar" href="#inf">
+                            <img class="swiper_avatar_img" src="">
+                        </a>
+                        <div class="swiper_text">
+                            <a href="#inf">
+                                <i class="icon icon-rank fa-solid"></i>
+                                <span class="swiper_text_name"></span>
+                            </a>
+                            <p class="swiper_text_job"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="nav-item swip" href="#nav">
+            <span class="material-symbols-rounded">music_note</span>
+            <span>Tahbert Music</span>
+        </a>
+
+        <div class="main-review">
+            This is a template for main-review of each categories.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+
+        <div class="preventBreak">
+            <div class="swiper swiper_inf">
+                <span class="icon-swiper prev material-symbols-rounded">arrow_circle_left</span>
+                <span class="icon-swiper next material-symbols-rounded">arrow_circle_right</span>
+
+                <div class="swiper-wrapper swiper_inf" data-inf>
+                    <div class="swiper-slide swiper_inf">
+                        <a class="swiper_avatar" href="#inf">
+                            <img class="swiper_avatar_img" src="">
+                        </a>
+                        <div class="swiper_text">
+                            <a href="#inf">
+                                <i class="icon icon-rank fa-solid"></i>
+                                <span class="swiper_text_name"></span>
+                            </a>
+                            <p class="swiper_text_job"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="nav-item swip" href="#nav">
+            <span class="material-symbols-rounded">sports_soccer</span>
+            <span>Tahbert Sports</span>
+        </a>
+
+        <div class="main-review">
+            This is a template for main-review of each categories.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+
+        <div class="preventBreak">
+            <div class="swiper swiper_inf">
+                <span class="icon-swiper prev material-symbols-rounded">arrow_circle_left</span>
+                <span class="icon-swiper next material-symbols-rounded">arrow_circle_right</span>
+
+                <div class="swiper-wrapper swiper_inf" data-inf>
+                    <div class="swiper-slide swiper_inf">
+                        <a class="swiper_avatar" href="#inf">
+                            <img class="swiper_avatar_img" src="">
+                        </a>
+                        <div class="swiper_text">
+                            <a href="#inf">
+                                <i class="icon icon-rank fa-solid"></i>
+                                <span class="swiper_text_name"></span>
+                            </a>
+                            <p class="swiper_text_job"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="nav-item swip" href="#nav">
+            <span class="material-symbols-rounded">history_edu</span>
+            <span>Tahbert Discovery</span>
+        </a>
+
+        <div class="main-review">
+            This is a template for main-review of each categories.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+
+        <div class="preventBreak">
+            <div class="swiper swiper_inf">
+                <span class="icon-swiper prev material-symbols-rounded">arrow_circle_left</span>
+                <span class="icon-swiper next material-symbols-rounded">arrow_circle_right</span>
+
+                <div class="swiper-wrapper swiper_inf" data-inf>
+                    <div class="swiper-slide swiper_inf">
+                        <a class="swiper_avatar" href="#inf">
+                            <img class="swiper_avatar_img" src="">
+                        </a>
+                        <div class="swiper_text">
+                            <a href="#inf">
+                                <i class="icon icon-rank fa-solid"></i>
+                                <span class="swiper_text_name"></span>
+                            </a>
+                            <p class="swiper_text_job"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
