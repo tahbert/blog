@@ -1,1 +1,2 @@
-https://github.com/tahbertnguyen/tahbert.com.git
+visist: 
+https://tahbertnguyen.github.io/tahbert.com
