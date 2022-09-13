@@ -1,2 +1,2 @@
 visist: 
-https://tahbertnguyen.github.io/tahbert.com
+https://tahbert.github.io/blog
