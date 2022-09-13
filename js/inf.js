@@ -46,12 +46,12 @@
             {name:'Sadio Mané', job:'Soccer Player', rank:'fa-circle-check'},
             {name:'Shi Tingmao', job:'Soccer Player', rank:'fa-circle-check'},
             {name:'Niki Lauda', job:'Formula One Driver', rank:'fa-circle-check'},
-            {name:'Luka Modrić', job:'Soccer Player', rank:'fa-circle-check'},
-            {name:"N'Golo Kanté", job:'Soccer Player', rank:'fa-circle-check'},
-            {name:'Edinson Cavani', job:'Soccer Player', rank:'fa-circle-check'},
-            {name:'David Beckham', job:'Soccer Player', rank:'fa-circle-check'},
+            {name:'Frenkie de Jong', job:'Soccer Player', rank:'fa-circle-check'},
+            {name:'Luka Modrić', job:'Soccer Player', rank:'fa-star'},
+            {name:"N'Golo Kanté", job:'Soccer Player', rank:'fa-star'},
+            {name:'Edinson Cavani', job:'Soccer Player', rank:'fa-star'},
+            {name:'David Beckham', job:'Soccer Player', rank:'fa-star'},
             {name:'Steven Gerrard', job:'Soccer Player', rank:'fa-star'},
-            {name:'Frenkie de Jong', job:'Soccer Player', rank:'fa-star'},
             {name:'Ivan Rakitić', job:'Soccer Player', rank:'fa-star'}
         ],
 
