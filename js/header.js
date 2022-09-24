@@ -1,4 +1,4 @@
-var header = document.getElementById("header");
+const header = document.getElementById("header");
 window.onscroll = (e) => {
     if(window.pageYOffset >= header.offsetHeight) {
         header.classList.add("sticky");

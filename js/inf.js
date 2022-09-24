@@ -42,11 +42,12 @@
         // Tahbert Sports
         [
             {name:'Schweinsteiger', job:'Soccer Player', rank:'fa-heart'},
-            {name:'Yuna Kim', job:'Soccer Player', rank:'fa-circle-check'},
+            {name:'Yuna Kim', job:'Figure Skater', rank:'fa-circle-check'},
             {name:'Sadio Mané', job:'Soccer Player', rank:'fa-circle-check'},
             {name:'Shi Tingmao', job:'Soccer Player', rank:'fa-circle-check'},
-            {name:'Niki Lauda', job:'Formula One Driver', rank:'fa-circle-check'},
+            {name:'Niki Lauda', job:'Formula One Driver', rank:'fa-star'},
             {name:'Frenkie de Jong', job:'Soccer Player', rank:'fa-circle-check'},
+            {name:'Roger Federer', job:'Tennis Player', rank:'fa-circle-check'},
             {name:'Luka Modrić', job:'Soccer Player', rank:'fa-star'},
             {name:"N'Golo Kanté", job:'Soccer Player', rank:'fa-star'},
             {name:'Edinson Cavani', job:'Soccer Player', rank:'fa-star'},
@@ -55,12 +56,27 @@
             {name:'Ivan Rakitić', job:'Soccer Player', rank:'fa-star'}
         ],
 
+        // Tahbert Teach
+        [
+            {name:'Huong Nguyen', job:'Frontend Engineer', rank:'fa-heart'},
+            {name:'Kyle Cook', job:'Frontend Engineer', rank:'fa-circle-check'},
+            {name:'Quincy Larson', job:'Freecodecamp Founder', rank:'fa-star'}
+        ],
+
         // Tahbert Discovery
         [
-            {name:'Albert Einstein', job:'Scientist', rank:'fa-heart'},
-            {name:'Blaise Pascal', job:'Scientist', rank:'fa-heart'},
             {name:'Matthew Walker', job:'Sleep Scientist', rank:'fa-heart'},
-            {name:'Thomas Edison', job:'Scientist', rank:'fa-heart'}
+            {name:'Albert Einstein', job:'Scientist', rank:'fa-circle-check'},
+            {name:'Blaise Pascal', job:'Scientist', rank:'fa-circle-check'},
+            {name:'Thomas Edison', job:'Scientist', rank:'fa-circle-check'}
+        ],
+
+        // Tahbert Entertainment
+        [
+            {name:'Jeff Dunham', job:'Ventriloquist', rank:'fa-heart'},
+            {name:'Rowan Atkinson', job:'English Actor', rank:'fa-circle-check'},
+            {name:'Tran Anh Hung', job:'Film Director', rank:'fa-circle-check'},
+            {name:'Christopher Nolan', job:'Film Director', rank:'fa-circle-check'}
         ],
     ];
 
@@ -113,7 +129,6 @@
                     infoRank.innerText = 'beautify my life';
                 }
             });
-
             infIndex++;
         });
         infsIndex++;

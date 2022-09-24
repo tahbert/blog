@@ -1,8 +1,8 @@
-var menuIcon = document.getElementById("icon-menu");
-var searchBox = document.getElementById("search-box");
-var searchIcon = document.querySelector(".icon-search");
-var search = document.getElementById("search");
-var headerNav = document.getElementById("header-nav-wrapper");
+const menuIcon = document.getElementById("icon-menu");
+const searchBox = document.getElementById("search-box");
+const searchIcon = document.querySelector(".icon-search");
+const search = document.getElementById("search");
+const headerNav = document.getElementById("header-nav-wrapper");
 
 search.onfocus = () => {
     menuIcon.innerHTML = "close";
